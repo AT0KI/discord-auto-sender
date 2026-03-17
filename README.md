@@ -67,13 +67,13 @@ pyinstaller --onefile --windowed --icon=icon.ico --add-data "icon.ico;." discord
 
 ## Как получить токен
 
-1. Открой [discord.com](https://discord.com) в браузере
+1. Открой свой профиль на сайте [discord.com](https://discord.com) в браузере
 2. Нажми `F12` → вкладка **Network (Сеть)**
 3. Обнови страницу — `F5`
 4. В строке фильтра введи `/api`
 5. Кликни на любой запрос к `discord.com/api/...`
 6. Справа открой **Headers → Request Headers**
-7. Найди строку `authorization` — это твой токен
+7. Найди строку `Authorization` — это твой токен
 
 > ⚠️ Не передавай токен третьим лицам — он даёт полный доступ к аккаунту.
 
@@ -81,7 +81,7 @@ pyinstaller --onefile --windowed --icon=icon.ico --add-data "icon.ico;." discord
 
 ## Как найти ID канала
 
-1. Discord → **Настройки** (шестерёнка) → **Дополнительно**
+1. Discord → **Настройки** (шестерёнка) → **Расширенные**
 2. Включи **Режим разработчика**
 3. Правой кнопкой на нужный канал → **Копировать ID канала**
 
