@@ -1,0 +1,32 @@
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+
+# Конфиг с токеном — не заливать!
+config.json
+discord_sender_config.json
+
+# Иконка (опционально, можно убрать эту строку если хочешь залить)
+# icon.ico
+# icon.png
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
