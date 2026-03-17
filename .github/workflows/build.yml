@@ -1,0 +1,33 @@
+name: Build EXE
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install pyinstaller requests Pillow
+
+      - name: Build EXE via spec
+        run: |
+          pyinstaller build.spec
+
+      - name: Upload EXE to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/discord_sender.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
