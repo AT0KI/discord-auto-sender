@@ -37,7 +37,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='discord_sender',
+    name='Discord_Sender',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
