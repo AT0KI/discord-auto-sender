@@ -34,6 +34,6 @@ jobs:
       - name: Upload EXE to Release
         uses: softprops/action-gh-release@v2
         with:
-          files: dist/discord_sender.exe
+          files: dist/Discord_Sender.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
