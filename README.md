@@ -5,11 +5,11 @@
   <br/>
 
   <a href="../../releases/latest">
-    <img src="https://img.shields.io/github/v/release/ATOKI/discord-auto-sender?style=for-the-badge&logo=github&color=5865F2&labelColor=1e1f22&label=Download" alt="Download"/>
+    <img src="https://img.shields.io/github/v/release/AT0KI/discord-auto-sender?style=for-the-badge&logo=github&color=5865F2&labelColor=1e1f22&label=Download" alt="Download"/>
   </a>
   &nbsp;
   <a href="../../releases">
-    <img src="https://img.shields.io/github/downloads/ATOKI/discord-auto-sender/total?style=for-the-badge&color=23a55a&labelColor=1e1f22&label=Total+Downloads" alt="Downloads"/>
+    <img src="https://img.shields.io/github/downloads/AT0KI/discord-auto-sender/total?style=for-the-badge&color=23a55a&labelColor=1e1f22&label=Total+Downloads" alt="Downloads"/>
   </a>
   &nbsp;
   <a href="LICENSE">
