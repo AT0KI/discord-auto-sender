@@ -1,7 +1,7 @@
 VSVersionInfo(
   ffi=FixedFileInfo(
-    filevers=(1, 0, 1, 0),
-    prodvers=(1, 0, 1, 0),
+    filevers=(1, 0, 2, 0),
+    prodvers=(1, 0, 2, 0),
     mask=0x3f,
     flags=0x0,
     OS=0x40004,
@@ -16,12 +16,12 @@ VSVersionInfo(
         [
           StringStruct(u'CompanyName',      u'ATOKI'),
           StringStruct(u'FileDescription',  u'Discord Auto Sender'),
-          StringStruct(u'FileVersion',      u'1.0.1.0'),
+          StringStruct(u'FileVersion',      u'1.0.2.0'),
           StringStruct(u'InternalName',     u'discord_sender'),
           StringStruct(u'LegalCopyright',   u'© 2025 ATOKI'),
           StringStruct(u'OriginalFilename', u'discord_sender.exe'),
           StringStruct(u'ProductName',      u'Discord Auto Sender'),
-          StringStruct(u'ProductVersion',   u'1.0.1'),
+          StringStruct(u'ProductVersion',   u'1.0.2'),
         ]
       )
     ]),
